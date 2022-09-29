@@ -1,0 +1,17 @@
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision); // true and true is true; true and false will be false
+console.log(hasDriversLicense || hasGoodVision); // only one has to be true for the entire operation to be true
+console.log(!hasDriversLicense); // basically just switches from its original true value to not true which is false
+
+if (hasDriversLicense && hasGoodVision) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else should drive...");
+}
+
+const isTired = true;
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// All Boolean variables are true so the result of this will be true
