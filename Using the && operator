@@ -1,0 +1,18 @@
+// Logical Operators:
+// && is the AND operator in JavaScript and with this, you can combine 2 logical values.
+// || is the OR operator
+// ! is the NOT operator
+
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriversLicense && hasGoodVision); // true and true will return true; true and false will return false
+console.log(hasDriversLicense || hasGoodVision); // only one has to be true for the entire operation to be true
+console.log(!hasDriversLicense); // basically just switches from its original true value to not true which will return false
+
+if (hasDriversLicense && hasGoodVision) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else should drive...");
+}
+// this will return false and the the else block will be executed
